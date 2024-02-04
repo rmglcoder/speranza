@@ -1,0 +1,200 @@
+body {
+    padding-top: 56px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: rgba(158, 5, 0);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+span {
+    font-family: 'Sofia', sans-serif;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.jumbotron {
+    background: url('img/flower-background.jpg') center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+}
+
+.card {
+    transition: transform 0.5s;
+    border: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #9e0500;
+    border-color: #9e0500;
+}
+
+.btn-primary:hover {
+    background-color: #6b0300;
+    border-color: #6b0300;
+}
+
+footer {
+    background-color: #9e0500;
+    color: #fff;
+    padding: 15px 0;
+}
+
+/* Additional Styles for Home Section */
+#home {
+    padding: 50px 0;
+    margin-top: 5px;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+}
+
+#home h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#home .row.justify-content-center {
+    margin-top: 30px;
+}
+
+#home .col-md-4 {
+    margin-bottom: 15px;
+}
+
+#home .card {
+    border: none;
+    background-color: #f8f9fa;
+}
+
+#home .btn-danger {
+    background-color: #9e0500;
+    border-color: #9e0500;
+}
+
+#home .btn-danger:hover {
+    background-color: #6b0300;
+    border-color: #6b0300;
+}
+
+#home .card-body {
+    text-align: center;
+}
+
+/* Additional Styles for Products Section */
+#products {
+    padding: 50px 0;
+}
+
+#products .text-center {
+    font-weight: bold;
+}
+
+#products .display-4 {
+    font-size: 2.5rem;
+}
+
+#products .carousel-inner {
+    text-align: center;
+}
+
+#products .product-image {
+    height: 300px;
+    object-fit: cover;
+}
+
+#products .text-dark {
+    font-weight: bold;
+}
+
+#products .btn-reserve {
+    margin-top: 15px;
+}
+
+#about .display-4 {
+    font-size: 2.5rem;
+}
+#contact {
+    margin-bottom: 5%;
+}
+#contact .display-4 {
+    font-size: 2.5rem;
+}
+@media (max-width: 768px) {
+            .carousel-inner img {
+                width: 100%;
+            }
+
+            .mb-4 {
+                margin-bottom: 2rem !important;
+            }
+
+            .display-4 {
+                font-size: 2rem !important;
+            }
+
+            .card {
+                flex-direction: column;
+            }
+
+            .btn-reserve,
+            .btn-primary {
+                width: 100%;
+            }
+
+            .social-icons {
+                text-align: center;
+            }
+    
+
+            .mobile-navbar-black .navbar-toggler-icon {
+                background-color: transparent; 
+                border: none;
+            }
+            #arrangementCarousel {
+                margin-top: 5%;
+            }
+        }

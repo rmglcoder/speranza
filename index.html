@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/logo1.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Import Poppins font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Import Sofia font from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Speranza Flower Shop</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top mobile-navbar mobile-navbar-black">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Your Logo" style="max-height: 40px;"><span>   Speranza</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <!-- Header Section -->
+    <header>
+        <div class="jumbotron jumbotron-fluid position-relative">
+            <div class="overlay"></div>
+            <div class="container">
+                <h1 class="display-4 text-white">Beautiful Flowers for Every Occasion</h1>
+                <span class="lead text-white">Explore our exquisite collection of handpicked flowers.</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="container mt-5" id="home">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img src="img/logo1.png" alt="Your Logo" class="img-fluid mb-4" style="max-width: 150px;">
+                <h2 class="text-dark display-4">Welcome to <span>Speranza</span> Flower Shop</h2>
+                <p class="lead text-dark">Explore the enchanting world of handpicked flowers for every occasion at
+                    Speranza Flower Shop.</p>
+                <p class="text-dark">Our passion is to bring joy and beauty into your life through carefully curated
+                    floral arrangements. Whether it's a special celebration or a thoughtful gesture, Speranza flowers are
+                    the perfect choice.</p>
+                <p class="text-dark">Visit our shop and experience the freshness and elegance of our flower collection.
+                    Let Speranza Flower Shop be your destination for all your floral needs.</p>
+                <div class="row justify-content-center mt-4">
+                    <div class="col-md-4">
+                        <button class="btn btn-danger btn-block" data-toggle="collapse" data-target="#special-offer"
+                            aria-expanded="false" aria-controls="special-offer">Special Offer</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-danger btn-block" data-toggle="collapse" data-target="#discount"
+                            aria-expanded="false" aria-controls="discount">Discounts</button>
+                    </div>
+                </div>
+                <div class="collapse mt-3" id="special-offer">
+                    <div class="card card-body bg-light">
+                        <h5 class="text-danger">Special Offer</h5>
+                        <p>Use code <strong class="text-success">SPECIAL10</strong> to get 10% off on your next purchase!</p>
+                        <p class="text-muted">Valid until the end of the month. Don't miss out!</p>
+                    </div>
+                </div>
+                <div class="collapse mt-3" id="discount">
+                    <div class="card card-body bg-light">
+                        <h5 class="text-danger">Discounts</h5>
+                        <p>Explore our ongoing discounts on selected flower arrangements. Limited time only!</p>
+                        <p>Use code <strong class="text-success">DISCOUNT20</strong> for an additional 20% off!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Products section  -->
+    <section class="container mt-5" id="products">
+        <div class="text-center mb-4 text-dark" style="font-weight: bold;">
+            <div class="display-4">OUR PRODUCTS</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div id="flowerCarousel" class="carousel slide border border-dark p-4 rounded" data-ride="carousel">
+                    <h2 class="text-center mb-4 text-dark" style="font-weight: bold;">flowers</h2>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/rose1.jpg" class="d-block w-100 product-image" alt="Rose 1">
+                                </div>
+                                <div class="col-md-6 text-dark text-center mt-4">
+                                    <h5>Red Rose</h5>
+                                    <p class="mb-0">A classic symbol of love and passion. Beautiful red roses perfect for
+                                        any occasion.</p>
+                                    <p>Price: $19.99</p>
+                                    <div class="row justify-content-center mt-5">
+                                        <button class="btn btn-primary btn-reserve" data-toggle="modal"
+                                            data-target="#reserveModal">Reserve Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/tulip1.avif" class="d-block w-100 product-image" alt="Tulip 1">
+                                </div>
+                                <div class="col-md-6 text-dark text-center mt-4">
+                                    <h5>Tulips</h5>
+                                    <p class="mb-0">Elegant and pure, white tulips represent grace and purity.</p>
+                                    <p>Price: $24.99</p>
+                                    <div class="row justify-content-center mt-5">
+                                        <button class="btn btn-primary btn-reserve" data-toggle="modal"
+                                            data-target="#reserveModal">Reserve Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/lily1.jpg" class="d-block w-100 product-image" alt="Lily">
+                                </div>
+                                <div class="col-md-6 text-dark text-center mt-4">
+                                    <h5>Lily</h5>
+                                    <p class="mb-0">Fragrant and exotic, lilies add a touch of sophistication.</p>
+                                    <p>Price: $25.99</p>
+                                    <div class="row justify-content-center mt-5">
+                                        <button class="btn btn-primary btn-reserve" data-toggle="modal"
+                                            data-target="#reserveModal">Reserve Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/daisy1.avif" class="d-block w-100 product-image" alt="Daisy">
+                                </div>
+                                <div class="col-md-6 text-dark text-center mt-4">
+                                    <h5>Daisy</h5>
+                                    <p class="mb-0">Vibrant and cheerful, daisies bring joy and positive energy.</p>
+                                    <p>Price: $18.99</p>
+                                    <div class="row justify-content-center mt-5">
+                                        <button class="btn btn-primary btn-reserve" data-toggle="modal"
+                                            data-target="#reserveModal">Reserve Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/sunflower1.jpg" class="d-block w-100 product-image"
+                                        alt="Sunflower">
+                                </div>
+                                <div class="col-md-6 text-dark text-center mt-4">
+                                    <h5>Sunflower</h5>
+                                    <p class="mb-0">Bright and bold, sunflowers symbolize happiness and warmth.</p>
+                                    <p>Price: $21.99</p>
+                                    <div class="row justify-content-center mt-5">
+                                        <button class="btn btn-primary btn-reserve" data-toggle="modal"
+                                            data-target="#reserveModal">Reserve Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/allium1.jpg" class="d-block w-100 product-image" alt="Allium">
+                                </div>
+                                <div class="col-md-6 text-dark text-center mt-4">
+                                    <h5>Allium</h5>
+                                    <p class="mb-0">Elegant and unique, allium flowers make a statement in any
+                                        arrangement.</p>
+                                    <p>Price: $27.99</p>
+                                    <div class="row justify-content-center mt-5">
+                                        <button class="btn btn-primary btn-reserve" data-toggle="modal"
+                                            data-target="#reserveModal">Reserve Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/begonia1.jpg" class="d-block w-100 product-image" alt="Begonia">
+                                </div>
+                                <div class="col-md-6 text-dark text-center mt-4">
+                                    <h5>Begonia</h5>
+                                    <p class="mb-0">Beautiful and versatile, begonias are perfect for various
+                                        occasions.</p>
+                                    <p>Price: $23.99</p>
+                                    <div class="row justify-content-center mt-5">
+                                        <button class="btn btn-primary btn-reserve" data-toggle="modal"
+                                            data-target="#reserveModal">Reserve Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#flowerCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#flowerCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="arrangementCarousel" class="carousel slide border border-dark p-4 rounded" data-ride="carousel">
+                    <h2 class="text-center mb-4 text-dark" style="font-weight: bold;">flower arrangements</h2>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/arrangment1.jpeg" class="d-block w-100 product-image"
+                                        alt="Arrangement 1">
+                                </div>
+                                <div class="col-md-6 text-dark text-center mt-4">
+                                    <h5>Special Occasion Arrangement</h5>
+                                    <p class="mb-0">Beautiful flower arrangement for your special occasions.</p>
+                                    <p>Price: $49.99</p>
+                                    <div class="row justify-content-center mt-5">
+                                        <button class="btn btn-primary btn-reserve" data-toggle="modal"
+                                            data-target="#reserveModal">Reserve Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/arrangement2.jpg" class="d-block w-100 product-image"
+                                        alt="Arrangement 2">
+                                </div>
+                                <div class="col-md-6 text-dark text-center mt-4">
+                                    <h5>Seasonal Bliss Arrangement</h5>
+                                    <p class="mb-0">Capture the essence of the season with this delightful flower
+                                        arrangement.</p>
+                                    <p>Price: $39.99</p>
+                                    <div class="row justify-content-center mt-5">
+                                        <button class="btn btn-primary btn-reserve" data-toggle="modal"
+                                            data-target="#reserveModal">Reserve Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/arrangement3.webp" class="d-block w-100 product-image"
+                                        alt="Arrangement 3">
+                                </div>
+                                <div class="col-md-6 text-dark text-center mt-4">
+                                    <h5>Rustic Elegance Arrangement</h5>
+                                    <p class="mb-0">A charming and rustic flower arrangement for a touch of elegance.</p>
+                                    <p>Price: $34.99</p>
+                                    <div class="row justify-content-center mt-5">
+                                        <button class="btn btn-primary btn-reserve" data-toggle="modal"
+                                            data-target="#reserveModal">Reserve Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/arrangement4.webp" class="d-block w-100 product-image"
+                                        alt="Arrangement 4">
+                                </div>
+                                <div class="col-md-6 text-dark text-center mt-4">
+                                    <h5>Modern Chic Arrangement</h5>
+                                    <p class="mb-0">Sleek and modern flower arrangement to complement contemporary
+                                        spaces.</p>
+                                    <p>Price: $44.99</p>
+                                    <div class="row justify-content-center mt-5">
+                                        <button class="btn btn-primary btn-reserve" data-toggle="modal"
+                                            data-target="#reserveModal">Reserve Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/arrangement5.avif" class="d-block w-100 product-image"
+                                        alt="Arrangement 5">
+                                </div>
+                                <div class="col-md-6 text-dark text-center mt-4">
+                                    <h5>Timeless Classic Arrangement</h5>
+                                    <p class="mb-0">An enduring classic, perfect for any occasion and setting.</p>
+                                    <p>Price: $54.99</p>
+                                    <div class="row justify-content-center mt-5">
+                                        <button class="btn btn-primary btn-reserve" data-toggle="modal"
+                                            data-target="#reserveModal">Reserve Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#arrangementCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#arrangementCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About section -->
+    <section class="container mt-5" id="about">
+        <div class="text-center mb-4 text-dark" style="font-weight: bold;">
+            <div class="display-4">ABOUT US</div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Our Passion</h5>
+                        <p class="card-text text-dark">Welcome to Speranza Flower Shop, where our passion for flowers
+                            drives us to provide you with the most beautiful and handpicked blooms for every occasion.
+                            Our commitment to quality ensures that each arrangement is a work of art.</p>
+                        <p class="card-text text-dark"><strong>Experience the Beauty:</strong> Explore our exquisite
+                            collection and discover the perfect bouquet to express your sentiments.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Nature's Beauty</h5>
+                        <p class="card-text text-dark">At Speranza Flower Shop, we believe in harnessing the power of
+                            nature's beauty to brighten your days. Our carefully curated selection ensures that each flower
+                            is not just a gift but a moment of joy and connection.</p>
+                        <p class="card-text text-dark"><strong>Stunning Aesthetics:</strong> We carefully choose each
+                            flower to guarantee freshness and create visually stunning arrangements that captivate and
+                            delight.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Excellent Service</h5>
+                        <p class="card-text text-dark">Our dedicated team at Speranza Flower Shop is committed to
+                            providing excellent service. From helping you choose the perfect arrangement to ensuring
+                            timely delivery, we go the extra mile to make your floral experience truly magical.</p>
+                        <p class="card-text text-dark"><strong>Your Floral Partner:</strong> Choose Speranza Flower Shop
+                            for all your floral needs, and let us help you create unforgettable moments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact section -->
+    <section class="container mt-5" id="contact">
+        <div class="text-center mb-4 text-dark" style="font-weight: bold;">
+            <div class="display-4">CONTACTS</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div id="slideshow" class="carousel slide border border-dark p-4 rounded" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/welcome-slide1.webp" class="d-block w-100" alt="Slideshow 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/welcome-slide2.jpg" class="d-block w-100" alt="Slideshow 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/welcome-slide3.jpg" class="d-block w-100" alt="Slideshow 3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 mb-4">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"
+                            required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <div class="social-icons mb-4">
+                <a href="#" target="_blank" class="text-white">
+                    <i class="fab fa-facebook-f mr-3"></i>
+                </a>
+                <a href="#" target="_blank" class="text-white">
+                    <i class="fab fa-twitter mr-3"></i>
+                </a>
+                <a href="#" target="_blank" class="text-white">
+                    <i class="fab fa-instagram mr-3"></i>
+                </a>
+                <a href="#" target="_blank" class="text-white">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+            </div>
+    
+            <p class="text-white">&copy; 2024 Speranza Flower Shop. All rights reserved.</p>
+        </div>
+    </footer>    
+        
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        </body>
+        
+        </html>
